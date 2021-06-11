@@ -1,0 +1,15 @@
+.card .title {
+  color: #00dbd0;
+}
+.card img {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+.card {
+  padding: 2rem 0 2rem 0;
+}
+
+.read-more {
+  padding: 1rem;
+  border-bottom: 2px solid #00dbd0;
+}

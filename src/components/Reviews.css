@@ -1,0 +1,30 @@
+.quote {
+  padding: 5rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.quote > img {
+  align-self: center;
+  margin: 1em auto;
+}
+.profile-pic {
+  height: 5em;
+}
+.star-row {
+  color: #00dbd0;
+}
+.review > * {
+  margin: 1em auto;
+}
+
+.quote p {
+  width: 50vw;
+}
+
+@media only screen and (max-width: 960px) {
+  .quote p {
+    width: 80vw;
+  }
+}

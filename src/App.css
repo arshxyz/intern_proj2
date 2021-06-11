@@ -1,7 +1,15 @@
+:root {
+  --pale-blue: #d7ffff;
+  --pale-blue-0: rgba(241, 254, 254, 0);
+}
 .App {
   text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    var(--pale-blue),
+    var(--pale-blue-0)
+  );
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +43,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.top-banner {
+  height: 100px;
 }
