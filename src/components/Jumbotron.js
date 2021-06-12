@@ -27,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   rightImage: {
+    margin: "0 20% 0 auto",
     [theme.breakpoints.down("sm")]: {
       display: "none",
     },
