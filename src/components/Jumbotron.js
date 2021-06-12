@@ -31,15 +31,26 @@ const useStyles = makeStyles((theme) => ({
       display: "none",
     },
 
-    // position: "absolute",
   },
   overlaplogo: {
     width: "350px",
     height: "350px",
     position: "absolute",
     transform: "translate(-200px)",
-    // zIndex: "-1",
     border: "3px solid #00dbd0",
+  },
+
+  infoHeading: {
+    fontSize: "30px",
+  },
+  mainHeading: {
+    fontSize: "48px",
+    fontWeight: "700",
+    padding: "0 0 1rem 0"
+  },
+  mainContent: {
+    fontSize: "20px",
+    padding: "1rem 0"
   },
 }));
 
@@ -50,14 +61,15 @@ export const Jumbotron = () => {
       <Grid
         item
         sm={false}
-        md={5}
+        md={4}
         className={classes.leftColumn}
         alignContent={"flex-start"}
       >
-        <div>
-          <p>fdfd</p>
-          <p>fdfd dddddddddd</p>
-          <p>fdfd ddddddddddfffffffffffffffffffffffff</p>
+        <div className={classes.mainBanner}>
+          <div className={classes.infoHeading}>Healthy life with</div>
+          <div className={classes.mainHeading}>Nature Organic</div>
+          <div className={classes.mainContent}>Vegetables are the edible parts of a plant
+            that is used in cooking or can be eaten now.</div>
           <Button className={classes.customBtn}> Explore Now </Button>
         </div>
       </Grid>
