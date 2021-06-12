@@ -1,6 +1,6 @@
 import "./BlogCard.css";
 import { Grid } from "@material-ui/core";
-import lorem from "./LoremText";
+import lorem from "../LoremText";
 
 const BlogFragment = (props) => {
   return (

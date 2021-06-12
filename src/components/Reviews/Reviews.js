@@ -1,15 +1,14 @@
 import "./Reviews.css";
 import Slider from "react-slick";
 import StarBorderIcon from "@material-ui/icons/StarBorder";
-import lorem from "./LoremText";
+import lorem from "../LoremText";
 
 const review = (
   <div className="review">
     <img src="/portrait.png" className="profile-pic" />
     <div className="star-row">
-      {" "}
-      <StarBorderIcon /> <StarBorderIcon /> <StarBorderIcon />{" "}
-      <StarBorderIcon /> <StarBorderIcon />{" "}
+      <StarBorderIcon /> <StarBorderIcon /> <StarBorderIcon />
+      <StarBorderIcon /> <StarBorderIcon />
     </div>
     <p>{lorem}</p>
   </div>

@@ -1,12 +1,12 @@
 import "./App.css";
-import { Navbar } from "./components/Navbar/Navbar";
-import { Jumbotron } from "./components/Jumbotron/Jumbotron";
-import { Heading } from "./components/Jumbotron/Heading";
+import { Navbar } from "./components/Navbar";
+import { Jumbotron } from "./components/Jumbotron";
+import { Heading } from "./components/Heading/Heading";
 import { Showcase, SlidingShowcase } from "./components/Showcase";
-import { Reviews } from "./components/Reviews";
-import { EmailInput } from "./components/EmailInput";
-import { BlogCard } from "./components/BlogCard";
-import { Footer } from "./components/Footer";
+import { Reviews } from "./components/Reviews/Reviews";
+import { EmailInput } from "./components/EmailInput/EmailInput";
+import { BlogCard } from "./components/BlogCard/BlogCard";
+import { Footer } from "./components/Footer/Footer";
 
 const lorem =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat elit nec luctus condimentum. Nullam a nisi consectetur, posuere tortor eget, ornare libero.";
