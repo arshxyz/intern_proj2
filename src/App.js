@@ -35,13 +35,7 @@ function App() {
       <Showcase />
       <Heading text={lorem} title="Proudly presented by" />
       <SlidingShowcase slides={4} imgs={SlideShowImages} center={false} />
-      <div
-        style={{
-          backgroundImage: "url(/tendril.png)",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "-80%",
-        }}
-      >
+      <div className="tendril">
         <Reviews />
         <Heading text={lorem} title="Subscribe to our Newsletter" />
         <EmailInput />

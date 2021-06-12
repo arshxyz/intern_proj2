@@ -47,3 +47,11 @@
 .top-banner {
   height: 100px;
 }
+
+@media only screen and (min-width: 960px) {
+  .tendril {
+    background-repeat: no-repeat;
+    background-position: -600px;
+    background-image: url("tendril.png");
+  }
+}
