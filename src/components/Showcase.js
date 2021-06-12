@@ -34,7 +34,7 @@ export const SlidingShowcase = (props) => {
     swipeToScroll: true,
     responsive: [
       {
-        breakpoint: 600,
+        breakpoint: 960,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -58,7 +58,7 @@ export const SlidingShowcase = (props) => {
 export const Showcase = () => {
   return (
     <div>
-      <Hidden mdDown>
+      <Hidden smDown>
         <DesktopShowcase imgs={SlideShowImages} />
       </Hidden>
       <Hidden mdUp>
