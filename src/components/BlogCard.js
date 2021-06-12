@@ -1,8 +1,7 @@
 import "./BlogCard.css";
 import { Grid } from "@material-ui/core";
+import lorem from "./LoremText";
 
-const lorem =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat elit nec luctus condimentum. Nullam a nisi consectetur, posuere tortor eget, ornare libero.";
 const BlogFragment = (props) => {
   return (
     <Grid item md={3} xs={8}>

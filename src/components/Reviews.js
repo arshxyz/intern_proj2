@@ -1,9 +1,7 @@
 import "./Reviews.css";
 import Slider from "react-slick";
 import StarBorderIcon from "@material-ui/icons/StarBorder";
-
-const lorem =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat elit nec luctus condimentum. Nullam a nisi consectetur, posuere tortor eget, ornare libero.";
+import lorem from "./LoremText";
 
 const review = (
   <div className="review">

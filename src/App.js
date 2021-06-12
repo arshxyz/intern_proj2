@@ -6,6 +6,7 @@ import { Showcase, SlidingShowcase } from "./components/Showcase";
 import { Reviews } from "./components/Reviews";
 import { EmailInput } from "./components/EmailInput";
 import { BlogCard } from "./components/BlogCard";
+import { Footer } from "./components/Footer";
 
 const lorem =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat elit nec luctus condimentum. Nullam a nisi consectetur, posuere tortor eget, ornare libero.";
@@ -42,6 +43,7 @@ function App() {
       </div>
       <Heading text={lorem} title="Read Our Blog" img="/leaves.png" />
       <BlogCard />
+      <Footer />
     </div>
   );
 }

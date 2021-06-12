@@ -30,6 +30,7 @@ export const SlidingShowcase = (props) => {
     slidesToScroll: 4,
     // centerMode: true,
     centerPadding: "80px",
+    autoplay: true,
     swipeToScroll: true,
     responsive: [
       {
